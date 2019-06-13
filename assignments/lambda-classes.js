@@ -61,14 +61,14 @@ class ProjectManager extends Instructor {
     }
 }
 
-const andrew = new Student({
-    name: 'Andrew',
-    age: 18,
-    location: 'Texas',
-    background: 'High School Comp Sci',
+const marques = new Student({
+    name: 'Marques',
+    age: 37,
+    location: 'Orlando',
+    background: 'Nomad',
     className: 'Web21',
-    favSubjects: ['Angular', 'Javascript', 'CSS'],
+    favSubjects: ['Python', 'Javascript', 'Pentesting'],
     grade: Math.floor(Math.random() * 101) + 1,
 });
 
-andrew.listsSubjects();
+marques.listsSubjects();
